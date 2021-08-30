@@ -13,7 +13,7 @@ class MoveZeros {
 
     }
 
-    fun moveZeros(a: IntArray): IntArray? {
+    fun moveZeros(a: IntArray): IntArray {
         var right = a.size - 1
         var left = 0
         while (left < right) {

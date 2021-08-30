@@ -19,8 +19,8 @@ class StringPalindrome {
             return true
         }
 
-        return if (text[0] == text[text.length - 1]) {
-            isTextPalindrome(text.substring(1, text.length - 1))
+        return if (text[0] == text[text.lastIndex]) {
+            isTextPalindrome(text.substring(1, text.lastIndex))
         } else
             false
     }
