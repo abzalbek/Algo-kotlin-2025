@@ -1,3 +1,5 @@
+package Integer
+
 import org.junit.Test
 
 class NumberPalindrome {

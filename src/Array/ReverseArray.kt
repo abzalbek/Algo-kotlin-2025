@@ -1,3 +1,5 @@
+package Array
+
 import org.junit.Test
 
 class ReverseArray {
