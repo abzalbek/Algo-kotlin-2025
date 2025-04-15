@@ -14,7 +14,7 @@ class NumberPalindrome {
         println(isIntegerPalindrome(number))
         println(isIntegerPalindrome(number2))
 
-    }
+    } //
 
     fun isIntegerPalindrome(number: Int): Boolean {
         var check = number
