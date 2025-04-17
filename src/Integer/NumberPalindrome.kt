@@ -16,7 +16,7 @@ class NumberPalindrome {
 
     } //
 
-    fun isIntegerPalindrome(number: Int): Boolean {
+    private fun isIntegerPalindrome(number: Int): Boolean {
         var check = number
         var result = 0
 
